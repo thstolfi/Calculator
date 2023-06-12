@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atividade 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="titulo">Calculadora JS - Theilor Stolfi</div>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <input type="button" value="7" onclick="sNumber('7')">
+        <input type="button" value="8" onclick="sNumber('8')">
+        <input type="button" value="9" onclick="sNumber('9')">
+        <input type="button" value="+" onclick="sOperator('+')">
+        <br>
+        <input type="button" value="4" onclick="sNumber('4')">
+        <input type="button" value="5" onclick="sNumber('5')">
+        <input type="button" value="6" onclick="sNumber('6')">
+        <input type="button" value="-" onclick="sOperator('-')">
+        <br>
+        <input type="button" value="1" onclick="sNumber('1')">
+        <input type="button" value="2" onclick="sNumber('2')">
+        <input type="button" value="3" onclick="sNumber('3')">
+        <input type="button" value="*" onclick="sOperator('*')">
+        <br>
+        <input type="button" value="0" onclick="sNumber('0')">
+        <input type="button" value="/" onclick="sOperator('/')">
+        <input type="button" value="=" onclick="calculate()">
+        <input type="button" value="Clear" onclick="clearDisplay()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
